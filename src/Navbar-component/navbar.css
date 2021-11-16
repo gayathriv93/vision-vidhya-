@@ -15,6 +15,15 @@ a{
 font-size: 20px;
 font-weight: 600;
 letter-spacing: 1px;
-padding: 30px;
+margin: 30px;
+color: black;
 
+}
+a:active {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
 }

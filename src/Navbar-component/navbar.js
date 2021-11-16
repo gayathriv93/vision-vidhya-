@@ -11,9 +11,9 @@ class Navbar extends Component {
                         <img className="img-fluid  logo" src={logo} alt="" ></img>
                     </div>                 
                        <div className="col-6 d-flex justify-content-end text-light" >
-                        <a className="text-decoration-none text-dark " href="">Home</a>
-                        <a className="text-decoration-none text-dark " href="">Services</a>
-                        <a className="text-decoration-none text-dark " href="">About</a>
+                        <a className="text-decoration-none " href="">Home</a>
+                        <a className="text-decoration-none " href="">Services</a>
+                        <a className="text-decoration-none " href="">About</a>
 
                     </div>
 
