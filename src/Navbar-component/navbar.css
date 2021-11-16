@@ -1,0 +1,20 @@
+
+.nav-item {
+    height: 15vh;
+}
+.nav-logo {
+    /* border: 1px solid red; */
+    height: 100%;
+}
+.logo{
+    height: 100%;
+width: 55%;
+
+}
+a{
+font-size: 20px;
+font-weight: 600;
+letter-spacing: 1px;
+padding: 30px;
+
+}
