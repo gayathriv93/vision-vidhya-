@@ -1,16 +1,16 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Switch,BrowserRouter,Route, Redirect} from 'react-router-dom';
+import { Switch, BrowserRouter, Route, Redirect } from 'react-router-dom';
 import Navbar from './Navbar-component/navbar';
-import Initial from './Initial-Component/Initialcomponent';
+import Bannercomponent from './Bannercomponent/Bannercomponent';
 
 function App() {
   return (
-   <div>
-     <Initial></Initial>
-      {/* <Navbar /> */}
-     
-   </div>
+    <div>
+      <Navbar ></Navbar>
+
+      <Bannercomponent></Bannercomponent>
+    </div>
   );
 }
 

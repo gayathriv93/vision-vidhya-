@@ -1,6 +1,9 @@
 
 .nav-item {
     height: 15vh;
+    position: absolute;
+    top: 0;
+    z-index: 2;
 }
 .nav-logo {
     /* border: 1px solid red; */
@@ -27,3 +30,8 @@ a:active {
     border-radius: 5px;
     padding: 10px;
 }
+.menu-icon{
+color: white;
+cursor: pointer;
+}
+

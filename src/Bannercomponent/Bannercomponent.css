@@ -11,7 +11,7 @@
 
 .dummy-button{
     border-radius: 20px;
-    background-color: #F8AE33;
+    background-color: var(--app-primary);
     padding: 6px 0px;
     max-width: 6%;
     /* border: 1px solid; */
@@ -25,7 +25,7 @@
     letter-spacing: 1px;
 }
 .contact-btn {
-    background-color:#F8AE33 ;
+    background-color:var(--app-primary) ;
     padding:10px 35px;
     letter-spacing: 2px;
     font-size: 25px;
