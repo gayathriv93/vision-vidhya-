@@ -1,0 +1,27 @@
+svg{
+    margin: 5px;
+}
+
+.testimonal-name {
+font-size: 25px;
+letter-spacing: 2px;
+font-weight: bold;
+}
+.double-quotes{
+    height: 25px;
+    width: 75px;
+}
+.testimonal-content {
+    margin-top: 10px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+
+}
+.testimonal-container{
+    border-radius: 10px;
+}
+.testimonal-container:hover{
+    background-color: var(--app-secondary-shade);
+}
+

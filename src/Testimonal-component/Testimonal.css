@@ -1,0 +1,9 @@
+.testimonal {
+    /* height: 100vh; */
+    background-color: var(--app-testimonal-bg);
+}
+.testimonal-head {
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}

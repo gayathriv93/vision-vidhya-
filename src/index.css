@@ -1,5 +1,10 @@
 :root {
-  --app-primary: #F8AE33
+  --app-primary: #F8AE33;
+  --app-secondary-shade:#E8B103;
+  --app-testimonal-bg:#E5E5E5;
+
+  --app-footerbanner-content:#FBC64E;
+
 }
 
 body {
