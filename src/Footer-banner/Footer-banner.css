@@ -1,27 +1,28 @@
 .footer-banner-bg {
-background-image: url(../images/Bottom-banner.png);
-height: 100%;
+    background-image: url(../images/Bottom-banner.png);
+    /* height: 100%; */
+    background-size: cover;
 }
-.bigtext{
+
+.bigtext {
     color: var(--app-footerbanner-content);
     font-size: 3.4rem;
     letter-spacing: 1px;
     font-weight: bold;
-    font-style: Spartan;
 }
-.smalltext{
+
+.smalltext {
     font-size: 1.7rem;
     letter-spacing: 1px;
     color: white;
-    font-style: Spartan;
- 
 }
-.contact-btn{
+
+.contact-btn {
     background-color: var(--app-secondary-shade);
     color: black;
     font-weight: bold;
     font-size: 1.5rem;
     letter-spacing: 1px;
-    font-style: Spartan;
-padding: 20px 65px;
+    padding: 20px 65px;
+    border: none;
 }

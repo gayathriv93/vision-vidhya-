@@ -1,0 +1,6 @@
+.container-bg{
+  background: var(--app-offercontainer-bg);
+}
+.banner-heading{
+    font-size: 3rem;
+}

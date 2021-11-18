@@ -2,6 +2,7 @@
   --app-primary: #F8AE33;
   --app-secondary-shade:#E8B103;
   --app-testimonal-bg:#E5E5E5;
+  --app-offercontainer-bg:#362D2C;
 
   --app-footerbanner-content:#FBC64E;
 
@@ -14,7 +15,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: Spartan;
+
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
