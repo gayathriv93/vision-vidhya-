@@ -30,8 +30,6 @@ class Footer extends Component {
                             </div>
                         </div>
 
-
-
                     </div>
                     {/* Offers */}
                     <div className="col-12 col-md-3 d-flex justify-content-start text-light">
