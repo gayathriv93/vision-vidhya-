@@ -28,3 +28,6 @@ color: black;
 .hovering :hover{
   color: black;
 }
+.inner-text i{
+  font-size: 20px;
+}
