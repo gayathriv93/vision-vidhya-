@@ -14,7 +14,7 @@
 width: 55%;
 
 }
-a{
+.nav-item a{
 font-size: 20px;
 font-weight: 600;
 letter-spacing: 1px;
@@ -22,7 +22,7 @@ margin: 30px;
 color: black;
 
 }
-a:active {
+.nav-item a:active {
     background-color: black;
     border: 1px solid white;
     color: white;

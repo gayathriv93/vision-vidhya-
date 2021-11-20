@@ -1,0 +1,32 @@
+.offer-plan .bg {
+  background-color: #F3F3F3;
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+.offer-plan .card-heading {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.offer-plan .inner-text {
+  color: #b8b1b1;
+  font-size: 20px;
+}
+
+.offer-plan .offer-plan-card {
+  background-color: white;
+}
+
+.offer-plan .offer-plan-card:hover {
+  background-color: var(--app-secondary-shade);
+  color: black;
+}
+
+.offer-plan .offer-plan-card:hover .inner-text {
+  color: black;
+}
+
+.offer-plan .inner-text i {
+  font-size: 20px;
+}

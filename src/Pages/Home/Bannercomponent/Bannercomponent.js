@@ -1,6 +1,6 @@
 import { Component } from "react";
 import './Bannercomponent.css';
-import topimg from '../images/young-smiling-stu.png';
+import topimg from './young-smiling-stu.png';
 
 
 

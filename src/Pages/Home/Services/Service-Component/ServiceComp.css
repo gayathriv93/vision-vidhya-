@@ -1,0 +1,18 @@
+.service-container:hover {
+    background: var(--app-secondary-shade);
+}
+
+.service-head {
+    font-weight: bold;
+    /* border-bottom: 1px solid gray; */
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+.service-container {
+    background-color: #EEEEEE;
+    /* border: 1px solid gainsboro; */
+    border-radius: 10px;
+
+    /* max-width: 100%; */
+}

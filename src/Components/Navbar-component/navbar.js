@@ -1,5 +1,5 @@
 import { Component } from "react";
-import logo from "../images/vv-nav-logo.png";
+import logo from "./vv-nav-logo.png";
 import "./navbar.css";
 
 class Navbar extends Component {
@@ -13,9 +13,9 @@ class Navbar extends Component {
                     </div>
                     {/* nav items for big screen */}
                     <div className="col-6 d-none d-md-flex justify-content-end text-light" >
-                        <a className="text-decoration-none " href="">Home</a>
-                        <a className="text-decoration-none " href="">Services</a>
-                        <a className="text-decoration-none " href="">About</a>
+                        <a className="text-decoration-none " href="/">Home</a>
+                        <a className="text-decoration-none " href="/">Services</a>
+                        <a className="text-decoration-none " href="/">About</a>
 
                     </div>
                     {/* menu Icon for small screens */}

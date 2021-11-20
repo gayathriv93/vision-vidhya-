@@ -1,6 +1,6 @@
 import { Component } from "react";
 import './Footer.css';
-import logo from '../images/vv-nav-logo.png'
+import logo from './vv-nav-logo.png'
 
 class Footer extends Component {
     render() {
@@ -16,17 +16,17 @@ class Footer extends Component {
                         <div >
                             <div className="footer-headings pb-3">Services</div>
                             <div className="pb-3">
-                                <a className="text-decoration-none fw-normal  mx-0" href="">Profile Evaluation</a>
+                                <a className="text-decoration-none fw-normal  mx-0" href="/">Profile Evaluation</a>
 
                             </div>
                             <div className="pb-3">
-                                <a className="text-decoration-none fw-normal mx-0" href="">Application and admission</a>
+                                <a className="text-decoration-none fw-normal mx-0" href="/">Application and admission</a>
                             </div>
                             <div className="pb-3">
-                                <a className="text-decoration-none fw-normal  mx-0" href="">Blocked account and Health Insurance</a>
+                                <a className="text-decoration-none fw-normal  mx-0" href="/">Blocked account and Health Insurance</a>
                             </div>
                             <div className="pb-3">
-                                <a className="text-decoration-none fw-normal  mx-0" href="">Visa and travel</a>
+                                <a className="text-decoration-none fw-normal  mx-0" href="/">Visa and travel</a>
                             </div>
                         </div>
 
@@ -36,17 +36,17 @@ class Footer extends Component {
                         <div >
                             <div className="footer-headings pb-3">Our Offers</div>
                             <div className="pb-3">
-                                <a className="text-decoration-none fw-normal  mx-0" href=""> Standard Plan - ₹50000 </a>
+                                <a className="text-decoration-none fw-normal  mx-0" href="/"> Standard Plan - ₹50000 </a>
 
                             </div>
                             <div className="pb-3">
-                                <a className="text-decoration-none fw-normal mx-0" href="">Premium Plan - ₹80000</a>
+                                <a className="text-decoration-none fw-normal mx-0" href="/">Premium Plan - ₹80000</a>
                             </div>
                             <div className="pb-3">
-                                <a className="text-decoration-none fw-normal  mx-0" href="">Deluxe Plan - ₹100000 </a>
+                                <a className="text-decoration-none fw-normal  mx-0" href="/">Deluxe Plan - ₹100000 </a>
                             </div>
                             <div className="pb-3">
-                                <a className="text-decoration-none fw-normal  mx-0" href="">Platinum - ₹150000</a>
+                                <a className="text-decoration-none fw-normal  mx-0" href="/">Platinum - ₹150000</a>
                             </div>
                         </div>
                     </div>
