@@ -1,0 +1,15 @@
+.facility-container {
+    /* background: black; */
+    height: 0;
+    background: transparent;
+    position: relative;
+    bottom: 35px;
+}
+
+@media screen and(max-width:600px) {
+    .facility-container {
+        position: relative;
+        bottom: 15px;
+
+    }
+}

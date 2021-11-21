@@ -1,20 +1,22 @@
-.footer-headings{
+.footer-headings {
     font-size: 26px;
     font-weight: bold;
 }
-a{
+
+a {
     color: white;
     font-size: 16px;
-    
-
 }
- a:hover,i:hover{
+
+a:hover, i:hover {
     color: var(--app-secondary-shade);
 }
-i{
-font-size: 30px;
+
+i {
+    font-size: 30px;
 }
-.connect-bg{
+
+.connect-bg {
     /* background: #FFFFFF; */
     background: black;
 }

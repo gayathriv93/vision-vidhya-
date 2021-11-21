@@ -1,43 +1,47 @@
-
-.bg-color{
+.bg-color {
     background-color: #362D2C;
     height: 100vh;
-
 }
+
 .initial-content {
     color: white;
     height: 100%;
 }
 
-.dummy-button{
+.dummy-button {
     border-radius: 20px;
     background-color: var(--app-primary);
     padding: 6px 0px;
     max-width: 6%;
     /* border: 1px solid; */
 }
+
 .big-head {
     font-size: 65px;
     letter-spacing: 2px;
 }
+
 .small-head {
     font-size: 30px;
     letter-spacing: 1px;
 }
+
 .contact-btn {
-    background-color:var(--app-primary) ;
-    padding:10px 35px;
+    background-color: var(--app-primary);
+    padding: 10px 35px;
     letter-spacing: 2px;
     font-size: 25px;
     border-radius: 10px;
 }
-.img-bg{
+
+.img-bg {
     height: 100vh;
     background-image: url(./bg-img.png);
     background-size: cover;
     background-repeat: no-repeat;
 
 }
+
 .positioning {
     position: absolute;
     top: 40%;
@@ -45,39 +49,43 @@
     z-index: 1;
 
 }
-.img-position{
+
+.img-position {
     position: absolute;
     right: 0;
     height: 100%;
-    
+
 }
 
-@media screen and (max-width:820px){
+@media screen and (max-width:820px) {
     .contact-btn {
-        padding:10px 15px;
+        padding: 10px 15px;
         letter-spacing: 1px;
         font-size: 20px;
         border-radius: 10px;
     }
-    
-.big-head {
-    font-size: 39px;
-    letter-spacing: 2px;
-}
-.small-head {
-    font-size: 18px;
 
-}
+    .big-head {
+        font-size: 39px;
+        letter-spacing: 2px;
+    }
 
-.positioning {
-    padding: 0;
-}
-.dummy-button{
-    margin-left: 10px;
-}
-.img-position{
-    height: 100%;
-    width: 100%;
-    /* top: 20%; */
-}
+    .small-head {
+        font-size: 18px;
+
+    }
+
+    .positioning {
+        padding: 0;
+    }
+
+    .dummy-button {
+        margin-left: 10px;
+    }
+
+    .img-position {
+        height: 100%;
+        width: 100%;
+        /* top: 20%; */
+    }
 }

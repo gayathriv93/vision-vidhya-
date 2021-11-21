@@ -1,4 +1,17 @@
-.offer-container{
+.offer-container {
     background-color: var(--app-testimonal-bg);
+    padding-top: 20%;
+}
 
+@media screen and (max-width:650px) {
+    .offer-container {
+        padding-top: 10%;
+    }
+
+    @media screen and (min-width:650px)and(max-width:830px) {
+        .offer-container {
+            padding-top: 12%;
+        }
+
+    }
 }
