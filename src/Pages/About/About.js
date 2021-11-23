@@ -1,9 +1,12 @@
 import Aboutme from "./Aboutme/Aboutme";
+import Journey from "./Journey/Journey";
 
 function About() {
     return (
-        <Aboutme></Aboutme>
-
+        <div>
+            <Aboutme></Aboutme>
+            <Journey></Journey>
+        </div>
     )
 }
 export default About;

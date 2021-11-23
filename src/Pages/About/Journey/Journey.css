@@ -1,0 +1,9 @@
+.journey-container{
+    background-image: url('./Journeybg.png');
+    background-size: cover;
+    /* max-width:100% ; */
+}
+.journey-head{
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
