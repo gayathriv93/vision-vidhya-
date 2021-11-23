@@ -1,0 +1,11 @@
+.info-container{
+    background: var(--app-Aboutme-container);
+}
+.about-head-text{
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+.about-image{
+    object-fit: contain;
+    max-width: 100%;
+}

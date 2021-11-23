@@ -1,6 +1,7 @@
 import { Component } from "react";
 import logo from "./vv-nav-logo.png";
 import "./navbar.css";
+import { Link } from "react-router-dom";
 
 class Navbar extends Component {
     render() {
@@ -13,9 +14,11 @@ class Navbar extends Component {
                     </div>
                     {/* nav items for big screen */}
                     <div className="col-6 d-none d-md-flex justify-content-end text-light" >
-                        <a className="text-decoration-none " href="/">Home</a>
-                        <a className="text-decoration-none " href="/">Services</a>
-                        <a className="text-decoration-none " href="/">About</a>
+                        <Link className="text-decoration-none " to="/Home">Home</Link>
+                        <Link className="text-decoration-none " to="/Services">Services</Link>
+                        <Link className="text-decoration-none " to="/About">About</Link>
+                        <Link className="text-decoration-none " to="/Contactus">Contact Us</Link>
+
 
                     </div>
                     {/* menu Icon for small screens */}
